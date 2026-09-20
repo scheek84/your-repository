@@ -5,12 +5,12 @@ This repo demonstrates [Viewing missing commit details from commits in your time
 See [Git Docs](https://git-scm.com/docs/git-commit#_commit_information)
 
 ```cmd
-set "GIT_AUTHOR_NAME=octocat"
-set "GIT_AUTHOR_EMAIL=octocat@nowhere.com"
-set "GIT_AUTHOR_DATE=Tue, 03 Apr 2018 02:02:30 +0900"
-set "GIT_COMMITTER_NAME=Sally Johnson"
+set "GIT_AUTHOR_NAME=scheek84"
+set "GIT_AUTHOR_EMAIL=103375654+scheek84@users.noreply.github.com"
+set "GIT_AUTHOR_DATE=Sun, 20 September 02:02:30 +0900"
+set "GIT_COMMITTER_NAME=Shawn Cheek"
 set "GIT_COMMITTER_EMAIL=USER_EMAIL"
-set "GIT_COMMITTER_DATE=Tue, 10 Apr 2018 06:25:08 +0900"
+set "GIT_COMMITTER_DATE=Sun 20. September 06:25:08 +0900"
 git commit -m init --reset-author
 git tag YOUR_COMMIT_SHA_NUMBER HEAD
 git show YOUR_COMMIT_SHA_NUMBER --pretty=fuller
